@@ -14,7 +14,7 @@ export default function Menu() {
       </p>
 
       <SectionImage
-        src="/image1.png"
+        src="/image2.png"
         alt="Inspection technique de toiture à Perpignan"
       />
 
