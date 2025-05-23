@@ -81,7 +81,7 @@
     width: 350px;
     height: 80px;
     padding:  10px 150px 10px 10px;
-    top: 100px;
+    top: 80px;
     z-index: 3;
 }
 
@@ -95,7 +95,7 @@
   width: 350px;
   height: 80px;
   padding: 10px 10px 10px 150px; /* padding inversé */
-  top: 220px;
+  top: 200px;
   z-index: 3;
 }
 
@@ -108,6 +108,6 @@
     width: 350px;
     height: 80px;
     padding:  10px 150px 10px 10px;
-    top: 340px;
+    top: 320px;
     z-index: 3;
 }
