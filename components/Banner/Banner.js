@@ -9,7 +9,6 @@ import styles from './banner.module.css';
 const images = [
   '/image1.png',
   '/image2.png',
-  
 ];
 
 export default function Carousel() {
@@ -17,7 +16,6 @@ export default function Carousel() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
   const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
   
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -100,8 +98,7 @@ export default function Carousel() {
                 transition={{ duration: 0.6, delay: 0.6 }} 
             > 
               Réalisations 
-            </motion.a>
-           
+            </motion.a>           
         </div>
       <div className={styles.carouselInner}>
         {images.map((image, index) => (
