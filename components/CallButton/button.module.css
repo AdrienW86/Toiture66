@@ -1,0 +1,21 @@
+.link { 
+    position: absolute;
+    right: 70px;
+}
+
+.btn { 
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 120px;
+    transition: .4s ease-in-out;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(22,83,155);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(140,173,42);
+}
