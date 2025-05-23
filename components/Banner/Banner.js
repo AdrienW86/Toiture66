@@ -97,8 +97,8 @@ export default function Carousel() {
         <Image          
           src="/garantie.png"
           alt="garantie decenale"
-          width={140}
-          height={140}
+          width={120}
+          height={120}
           sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className={styles.image}
         />
