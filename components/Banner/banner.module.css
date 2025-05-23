@@ -72,42 +72,37 @@
     right: 2px
 }
 
-.p {
+.pContainer {
+position: absolute;
+  top: 10vh;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .textContainer {
+    gap: 1rem;
+    top: 6vh;
+  }
+}
+
+.p, .p2, .p3{
     background-color: rgb(140,173,42);
     clip-path: polygon(0 0, 60% 0, 74% 49%, 57% 100%, 0 100%);
     color: rgb(255, 255, 255);
-    position: absolute; 
     font-size: 1.1em;
     width: 350px;
     height: 80px;
     padding:  10px 150px 10px 10px;
-    top: 80px;
     z-index: 3;
 }
 
 .p2 {
-  background-color: rgb(140, 173, 42);
+    align-self: flex-end;
   clip-path: polygon(100% 0, 40% 0, 26% 49%, 43% 100%, 100% 100%);
-  color: white;
-  position: absolute;
-  right: 0;
-  font-size: 1.1em;
-  width: 350px;
-  height: 80px;
   padding: 10px 10px 10px 150px; /* padding inversé */
-  top: 200px;
-  z-index: 3;
-}
-
-.p3 {
-    background-color: rgb(140,173,42);
-    clip-path: polygon(0 0, 60% 0, 74% 49%, 57% 100%, 0 100%);
-    color: rgb(255, 255, 255);
-    position: absolute; 
-    font-size: 1.1em;
-    width: 350px;
-    height: 80px;
-    padding:  10px 150px 10px 10px;
-    top: 320px;
-    z-index: 3;
 }

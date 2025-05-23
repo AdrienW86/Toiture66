@@ -26,7 +26,8 @@ export default function Carousel() {
 
   return (
     <div className={styles.carousel} id="carouselExampleFade">
-      <motion.p 
+      <div className={styles.pContainer}>
+        <motion.p 
         className={styles.p}
         ref={ref1}  
               initial={{ opacity: 0, x: -50 }} 
@@ -61,6 +62,7 @@ export default function Carousel() {
       > 
         Vos travaux remboursés grâce MaPrimeRénov. 
       </motion.p>
+      </div>
         <Image          
           src="/garantie.png"
           alt="garantie decenale"
