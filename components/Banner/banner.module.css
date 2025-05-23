@@ -32,10 +32,8 @@
 }
   
 .btnContainer {
-    position: absolute;
     z-index: 2;
     width: 100%;
-    top: 440px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -74,19 +72,19 @@
 
 .pContainer {
 position: absolute;
-  top: 10vh;
+  top: 20vh;
   left: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   z-index: 3;
 }
 
 @media (max-width: 768px) {
-  .textContainer {
+  .pContainer {
     gap: 1rem;
-    top: 6vh;
+    top: 10vh;
   }
 }
 

@@ -62,16 +62,7 @@ export default function Carousel() {
       > 
         Vos travaux remboursés grâce MaPrimeRénov. 
       </motion.p>
-      </div>
-        <Image          
-          src="/garantie.png"
-          alt="garantie decenale"
-          width={140}
-          height={140}
-          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          className={styles.image}
-        />
-        <div className={styles.btnContainer}>
+       <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 
               href="/contact"
@@ -102,6 +93,16 @@ export default function Carousel() {
               Réalisations 
             </motion.a>           
         </div>
+      </div>
+        <Image          
+          src="/garantie.png"
+          alt="garantie decenale"
+          width={140}
+          height={140}
+          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className={styles.image}
+        />
+       
       <div className={styles.carouselInner}>
         {images.map((image, index) => (
           <div
