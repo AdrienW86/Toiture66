@@ -49,8 +49,12 @@ export default function Header() {
         <ul className={styles.ul}>
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
           <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>
-          <li> <Link className={styles.li} href="/couverture" onClick={handleMenuToggle}> Couverture </Link></li>
-          <li> <Link className={styles.li} href="/peinture" onClick={handleMenuToggle}> Peinture </Link></li>
+          <li> <Link className={styles.li} href="/nettoyage" onClick={handleMenuToggle}> Nettoyage toiture </Link></li>
+          <li> <Link className={styles.li} href="/anti-mousse" onClick={handleMenuToggle}> Traitement anti-mousse </Link></li>
+          <li> <Link className={styles.li} href="/isolation" onClick={handleMenuToggle}> Isolation des combles </Link></li>
+          <li> <Link className={styles.li} href="/reparation-toiture" onClick={handleMenuToggle}> Réparation toiture </Link></li>
+          <li> <Link className={styles.li} href="/remplacement-toiture" onClick={handleMenuToggle}> Remplacement de toiture </Link></li>
+          <li> <Link className={styles.li} href="/couverture" onClick={handleMenuToggle}> Pose toiture neuve </Link></li>
           <li> <Link className={styles.li} href="/savoir-faire" onClick={handleMenuToggle}> Qui sommes-nous ? </Link></li>
           <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Contact </Link></li>
         </ul>

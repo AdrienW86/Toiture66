@@ -1,12 +1,12 @@
 import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Couverture/Couverture'
+import Reparation from '@/components/Reparation/Reparation'
 import styles from '@/app/page.module.css'
 
 export default function page() {
   return (
-   <main className={styles.main}>
+    <main className={styles.main}>   
       <Banner />
-      <Menu />    
+      <Reparation /> 
     </main>
   )
 }

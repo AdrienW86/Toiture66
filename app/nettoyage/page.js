@@ -1,12 +1,13 @@
+import Head from 'next/head'
 import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Couverture/Couverture'
+import Nettoyage from '@/components/Nettoyage/Nettoyage'
 import styles from '@/app/page.module.css'
 
 export default function page() {
   return (
-   <main className={styles.main}>
+    <main className={styles.main}>   
       <Banner />
-      <Menu />    
+      <Nettoyage /> 
     </main>
   )
 }
