@@ -1,6 +1,8 @@
 import './globals.css';
 import { Oswald } from 'next/font/google';
-import Script from 'next/script';
+import Header from '@/components/Header/Header';
+import PhoneButton from '@/components/PhoneButton/PhoneButton';
+import Footer from '@/components/Footer/Footer';
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -29,7 +31,10 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className={oswald.className}>
+        <Header />
         {children}
+        <PhoneButton />
+        <Footer />
       </body>
     </html>
   );
