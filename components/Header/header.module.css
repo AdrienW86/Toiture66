@@ -30,9 +30,9 @@
 }
 
 .hamburger {
-    position: absolute;
-    bottom: -17px;
-    left: 40px;
+    position: fixed;
+    top: 65px;
+    right: 20px;
     width: 35px;
     height: 35px;
     z-index: 30;
