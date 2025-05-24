@@ -1,7 +1,5 @@
-'use client';
-
-import React from 'react';
-import Image from 'next/image';
+import Card from '@/components/Card/Card';
+import cardsData from '../Card/data';
 import styles from './description.module.css';
 
 export default function Description() {
@@ -13,54 +11,21 @@ export default function Description() {
             Services de Rénovation
           </h2>
           <p className={styles.intro}> 
-            Nous offrons des services complets pour la rénovation de 
-            toiture et l'entretien de votre maison.
+            Nous proposons des services complets de rénovation de toiture, 
+            d’entretien de couverture et d’amélioration de l’habitat pour garantir 
+            la durabilité et le confort de votre maison.
           </p>
         </div>
         <section className={styles.localisation}>
-          <div className={styles.card}>
-            <Image          
-              src="/image2.png"
-              alt="un ouvrier en train de travailler sur un toit"
-              width={320}
-              height={250}
-              sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className={styles.image}
-            />
-            <div className={styles.cardTxt}>
-            <h3 className={styles.h3}> Nettoyage de Toiture</h3>
-            <p className={styles.pCard}> Service professionnel pour nettoyer et entretenir votre toiture efficacement et durablement. </p>
-            </div>
-          </div>       
-          <div className={styles.card}>
-            <Image          
-              src="/image1.png"
-              alt="toiture"
-              width={320}
-              height={250}
-              sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className={styles.image}
-            />
-            <div className={styles.cardTxt}>
-            <h3 className={styles.h3}> Isolation des Combles </h3>
-            <p className={styles.pCard}>
-            Améliorez votre confort avec notre service d'isolation des combles pour une meilleure efficacité énergétique. </p>
-            </div>
-          </div>       
-          <div className={styles.card}>
-            <Image          
-              src="/image3.png"
-              alt="chantier en cours"
-              width={320}
-              height={250}
-              sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className={styles.image}
-            />
-            <div className={styles.cardTxt}>
-            <h3 className={styles.h3}> Protection durable toiture</h3>
-            <p className={styles.pCard}> Traitement hydrofuge et anti-mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
-            </div>
-          </div>       
+            {cardsData.map((card, index) => (
+        <Card
+          key={index}
+          imageSrc={card.imageSrc}
+          imageAlt={card.imageAlt}
+          title={card.title}
+          description={card.description}
+        />
+      ))}
         </section>
       </section>
   );

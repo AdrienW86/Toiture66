@@ -1,0 +1,31 @@
+.card {
+    width: 320px;
+    border-radius: 20px;
+    background-color: rgb(22,83,155);
+    margin: 20px;
+    transition: .4s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.h3 {
+    margin: 10px 0;
+    color: rgb(140,173,42);  
+}
+
+.cardTxt {
+    margin: 10px;
+    height: 200px;
+    background-color: rgb(22,83,155);
+}
+
+.image {
+   border-radius: 20px 20px 0 0;
+}
+
+.pCard {
+    color: white;
+}
