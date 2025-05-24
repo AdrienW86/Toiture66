@@ -14,7 +14,7 @@ export default function PoseToitureNeuve() {
       </p>
 
       <SectionImage
-        src="/image13.png"
+        src="/image13.avif"
         alt="Pose de toiture neuve à Perpignan dans les Pyrénées-Orientales"
       />
 

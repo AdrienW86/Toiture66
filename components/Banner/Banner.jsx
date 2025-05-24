@@ -7,24 +7,24 @@ import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
 
 const images = [
-  '/image1.png',
-  '/image2.png',
-  '/image3.png',
-  '/image4.png',
-  '/image5.png',
-  '/image6.png',
-  '/image7.png',
-  '/image8.png',
-  '/image9.png',
-  '/image10.png',
-  '/image11.png',
-  '/image12.png',
-  '/image13.png',
-  '/image14.png',
-  '/image15.png',
-  '/image16.png',
-  '/image17.png',
-  '/image18.png',
+  '/image1.avif',
+  '/image2.avif',
+  '/image3.avif',
+  '/image4.avif',
+  '/image5.avif',
+  '/image6.avif',
+  '/image7.avif',
+  '/image8.avif',
+  '/image9.avif',
+  '/image10.avif',
+  '/image11.avif',
+  '/image12.avif',
+  '/image13.avif',
+  '/image14.avif',
+  '/image15.avif',
+  '/image16.avif',
+  '/image17.avif',
+  '/image18.avif',
 ];
 
 export default function Carousel() {
@@ -111,7 +111,7 @@ export default function Carousel() {
         </div>
       </div>
         <Image          
-          src="/garantie.png"
+          src="/garantie.avif"
           alt="garantie decenale"
           width={120}
           height={120}

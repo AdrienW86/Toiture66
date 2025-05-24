@@ -14,7 +14,7 @@ export default function Isolation() {
       </p>
 
       <SectionImage
-        src="/image7.png"
+        src="/image7.avif"
         alt="Isolation des combles à Perpignan dans les Pyrénées-Orientales"
       />
 

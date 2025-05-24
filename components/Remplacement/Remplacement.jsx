@@ -14,7 +14,7 @@ export default function Remplacement() {
       </p>
 
       <SectionImage
-        src="/image18.png"
+        src="/image18.avif"
         alt="Remplacement de toiture à Perpignan dans les Pyrénées-Orientales"
       />
 

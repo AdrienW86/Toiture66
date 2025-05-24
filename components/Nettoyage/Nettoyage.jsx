@@ -14,7 +14,7 @@ export default function Nettoyage() {
       </p>
 
       <SectionImage
-        src="/image9.png"
+        src="/image9.avif"
         alt="Nettoyage professionnel de toiture à Perpignan"
       />
 

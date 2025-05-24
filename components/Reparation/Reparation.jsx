@@ -14,7 +14,7 @@ export default function Reparation() {
       </p>
 
       <SectionImage
-        src="/image2.png"
+        src="/image2.avif"
         alt="Réparation de toiture à Perpignan dans les Pyrénées-Orientales"
       />
 

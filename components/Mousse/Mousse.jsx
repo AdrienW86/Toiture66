@@ -14,7 +14,7 @@ export default function Demoussage() {
       </p>
 
       <SectionImage
-        src="/image16.png"
+        src="/image16.avif"
         alt="Démoussage et nettoyage de toiture à Perpignan"
       />
 
