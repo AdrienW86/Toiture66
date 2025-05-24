@@ -1,0 +1,21 @@
+.link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(22,83,155);
+    background-color: white;
+}
+
+
+.link:hover {
+    color:white;
+    background-color: rgb(22,83,155);
+}
