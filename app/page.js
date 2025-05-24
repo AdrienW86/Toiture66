@@ -4,6 +4,11 @@ import Description from '@/components/Description/Description'
 import PhoneButton from '@/components/PhoneButton/PhoneButton'
 import styles from './page.module.css'
 
+export const metadata = {
+  title: 'Toiture 66 - Couvreur à Perpignan & Pyrénées-Orientales',
+  description: 'Toiture 66 est votre spécialiste en couverture, rénovation et entretien de toitures à Perpignan. Qualité, réactivité et savoir-faire dans les Pyrénées-Orientales.',
+};
+
 export default function Home() {
   return (
     <main className={styles.main}>

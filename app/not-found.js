@@ -1,7 +1,11 @@
 // app/not-found.js
 import Link from 'next/link'
-import Banner from '@/components/Banner/Banner'
 import styles from '@/app/not-found.module.css' 
+
+export const metadata = {
+  title: 'Page non trouvée - Toiture 66',
+  description: 'Oups ! La page que vous recherchez n’existe pas. Retournez à l’accueil de Toiture 66, couvreur à Perpignan.',
+};
 
 export default function NotFound() {
   return (
