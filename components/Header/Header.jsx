@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import CallButton from '../CallButton/CallButton';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styles from './header.module.css'
 
@@ -29,7 +29,7 @@ export default function Header() {
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
           className={styles.logo}
-          src="/logo.png"
+          src="/logo.avif"
           alt="logo"
           width={250}
           height={250}

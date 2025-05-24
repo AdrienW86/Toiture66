@@ -13,7 +13,8 @@ const oswald = Oswald({
 
 export const metadata = {
   title: 'Toiture 66',
-  description: "Toiture 66 – Spécialiste de la couverture, rénovation et entretien de toitures à Perpignan et ses environs. Intervention rapide, travail de qualité et conseils personnalisés pour protéger votre habitation.",
+  description:
+    'Toiture 66 – Spécialiste de la couverture, rénovation et entretien de toitures à Perpignan et ses environs. Intervention rapide, travail de qualité et conseils personnalisés pour protéger votre habitation.',
 };
 
 export default function RootLayout({ children }) {
@@ -21,10 +22,21 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <head>
         <link rel="icon" href="/favicon.png" />
+
+        {/* Préchargement optimisé de Google Fonts */}
         <link
+          rel="preload"
           href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-          rel="stylesheet"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
         />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#ffffff" />
