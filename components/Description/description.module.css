@@ -1,12 +1,11 @@
 .description {
-    margin: 40px auto;
-    background-color: rgb(255, 255, 255);
+    padding: 40px auto;
+    background-color: rgb(140,173,42); 
 }
 
 .box {
     z-index: 2;
     color: rgb(22,83,155);
-    background-color: rgb(255, 255, 255);
 }
 
 .h2 {
@@ -17,7 +16,7 @@
     font-size: 1.8em;
     text-align: center;
     font-weight: lighter;
-    color: rgb(140,173,42);  
+    color: rgb(255, 255, 255);  
 }
 
 .intro {
@@ -34,6 +33,7 @@
     flex-direction: column;
     justify-content: center; 
     transition: .4s ease-in-out;
+    background-color: white;
 }
 
 .intro:hover {
@@ -47,6 +47,5 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
+    margin: 40px auto; 
 }

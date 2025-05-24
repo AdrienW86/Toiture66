@@ -4,12 +4,14 @@ import styles from "./equipment.module.css"
 export default function Equipment() {
   return (
     <section className={styles.container}>
-      <h1 className={styles.title}> Votre expert toiture</h1>
-        <div className={styles.column}>
-          Chez <span className={styles.span}> Toiture 66</span>, nous offrons 
-          des services complets de rénovation de toiture, y compris nettoyage, traitement 
-          hydrofuge, recherche de fuites et bien plus pour votre confort et sécurité.
-        </div>
+      <h1 className={styles.title}>Spécialiste en rénovation et entretien de toiture</h1>
+      <div className={styles.column}>
+        Chez <span className={styles.span}>Toiture 66</span>, nous réalisons des 
+        travaux complets de rénovation de toiture dans les Pyrénées-Orientales : 
+        nettoyage de toit, traitement hydrofuge, réparation de fuites, remplacement 
+        de tuiles et entretien préventif pour assurer la longévité de votre couverture.
+      </div>
     </section>
   )
 }
+
