@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.toiture66.fr
+
+# Sitemaps
+Sitemap: https://www.toiture66.fr/sitemap.xml
