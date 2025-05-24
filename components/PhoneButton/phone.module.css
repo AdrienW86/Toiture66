@@ -1,7 +1,7 @@
 .link {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
