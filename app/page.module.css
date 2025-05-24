@@ -40,7 +40,7 @@
 
 .background {
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
-  background-image: url("/image2.png");
+  background-image: url("/image2.avif");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -59,7 +59,7 @@
 }
 
 .background2 {
-  background-image: url("/image2.png");
+  background-image: url("/image2.avif");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
