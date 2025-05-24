@@ -25,10 +25,9 @@
 }
 
 .buttonBox {
-  position: fixed;
-  top: 65px;
-  right: 16px; /* évite de coller au bord de l'écran */
-  z-index: 100
+    position: fixed;
+    right: 20px; /* évite de coller au bord de l'écran */
+    z-index: 100
 }
 
 .hamburger {
