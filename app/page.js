@@ -15,7 +15,6 @@ export default function Home() {
       <Banner />
       <Equipment />
       <Description />
-      <PhoneButton />  
     </main>
   )
 }
