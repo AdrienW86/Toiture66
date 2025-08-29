@@ -6,8 +6,8 @@ import styles from './map.module.css';
 export default function GoogleMap() {
   const address = {
     name: "Toiture 66",
-    email: "toiture66@gmail.com",
-    phone: "07 57 51 64 14",
+    email: "toiture66000@gmail.com",
+    phone: "07 43 26 04 51",
     fullAddress: "Perpignan et alentours",
   };
 
