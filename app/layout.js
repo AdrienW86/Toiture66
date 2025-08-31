@@ -51,14 +51,14 @@ export default function RootLayout({ children }) {
         </Script>
 
         {/* Consent Manager */}
-        <Script
+        {/* <Script
           src="https://cdn.consentmanager.net/delivery/autoblocking/64fae7f782c0d.js"
           strategy="afterInteractive"
           data-cmp-ab="1"
           data-cmp-host="d.delivery.consentmanager.net"
           data-cmp-cdn="cdn.consentmanager.net"
           data-cmp-codesrc="16"
-        />
+        /> */}
 
         {children}
         <Footer />
