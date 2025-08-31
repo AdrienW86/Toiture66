@@ -1,5 +1,5 @@
 import './globals.css';
-import { Oswald } from 'next/font/google';
+import { Oswald, Lobster } from 'next/font/google';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Script from 'next/script';
@@ -7,6 +7,12 @@ import Script from 'next/script';
 const oswald = Oswald({
   subsets: ['latin'],
   weight: ['400', '700'],
+  display: 'swap',
+});
+
+const lobster = Lobster({
+  subsets: ['latin'],
+  weight: '400',
   display: 'swap',
 });
 
@@ -21,31 +27,16 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <head>
         <link rel="icon" href="/favicon.png" />
-
-        {/* Préchargement optimisé de Google Fonts */}
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-          as="style"
-          onLoad="this.onload=null;this.rel='stylesheet'"
-        />
-        <noscript>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-            rel="stylesheet"
-          />
-        </noscript>
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
       </head>
 
-      <body className={oswald.className}>
+      <body className={`${oswald.className} ${lobster.className}`}>
         <Header />
 
-        {/* Google tag (gtag.js) */}
+        {/* Google Tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17521997839"
           strategy="afterInteractive"
@@ -55,10 +46,19 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'AW-17521997839');
           `}
         </Script>
+
+        {/* Consent Manager */}
+        <Script
+          src="https://cdn.consentmanager.net/delivery/autoblocking/64fae7f782c0d.js"
+          strategy="afterInteractive"
+          data-cmp-ab="1"
+          data-cmp-host="d.delivery.consentmanager.net"
+          data-cmp-cdn="cdn.consentmanager.net"
+          data-cmp-codesrc="16"
+        />
 
         {children}
         <Footer />
